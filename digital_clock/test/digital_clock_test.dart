@@ -1,6 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:digital_clock/digital_clock.dart';
 
 void main() {
   test('adds one to input values', () {
@@ -9,4 +8,8 @@ void main() {
     expect(calculator.addOne(-7), -6);
     expect(calculator.addOne(0), 1);
   });
+}
+
+// ignore: non_constant_identifier_names
+Calculator() {
 }
