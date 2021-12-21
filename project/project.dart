@@ -10,7 +10,7 @@ void main() async {
   var response = await request.close(); 
 
   
-  await for (var contents in response.transform(Utf8Decoder())) {
+  await for (var contents in response.transform(const Utf8Decoder())) {
     print(contents);
   }
 }
