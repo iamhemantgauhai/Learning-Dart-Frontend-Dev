@@ -1,41 +1,48 @@
-class IntStorage {
-  int _value;
+// // class IntStorage {
+// //   int _value;
 
-  IntStorage(int i);
+// //   IntStorage(int i);
 
-  Strorage(this._value) {
-    // ignore: todo
-    // TODO: implement Strorage
-    throw UnimplementedError();
-  }
+// //   Strorage(this._value) {
+// //     // ignore: todo
+// // ignore: todo
+// //     // TODO: implement Strorage
+// //     throw UnimplementedError();
+// //   }
 
-  int get value => _value;
-}
+//   Type get value => _value;
 
-class StringStorage{
-  String _value;
+// class _value {
+// }
+// }
 
-  StringStorage(this._value);
+// class StringStorage{
+//   String _value;
+
+//   StringStorage(this._value);
   
-  String get value => _value;
-}
+//   String get value => _value;
+// }
 
-class Storage<type>{
+// class Storage<type>{
 
-  Storage(int i);
+//   Storage(int i);
 
-  Type get value => value;
-}
+//   Type get value => value;
+// }
 
-void main(){
-IntStorage obj1 = IntStorage(5);
-print(obj1.value);
+// void main(){
+// IntStorage obj1 = IntStorage(5);
+// print(obj1.value);
 
-StringStorage obj2 = StringStorage("xyz");
-print(obj2.value);
+// StringStorage obj2 = StringStorage("xyz");
+// print(obj2.value);
 
-Storage<int> obj3 = Storage<int>(6);
-print(obj3.value);
+// Storage<int> obj3 = Storage<int>(6);
+// print(obj3.value);
 
-print(obj3.value);
-}
+// print(obj3.value);
+// }
+
+// IntStorage(int i) {
+// }
